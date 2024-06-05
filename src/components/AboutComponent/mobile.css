@@ -1,0 +1,141 @@
+@media screen and (max-width:1571px) {
+    .about .section-row {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width:1451px) {
+    .about .section-row {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:1351px) {
+    .about .section-row {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width:1271px) {
+    .about .section-row {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .about .section-row {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .about .section-row {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .card {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width:967px) {
+    .card {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .card {
+        max-width: 55%;
+    }
+    .informationData::before {
+        left: -2rem;
+        top: -5rem;
+        height: 11rem;
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .card {
+        max-width: 55%;
+        padding: 2.5rem 3rem;
+    }
+    .additional {
+        padding: 3rem 1.5rem 3rem 4rem;
+    }
+}
+@media screen and (max-width:758px) {
+    .date-point, .additional p{
+        font-size: .9rem;
+    }
+    .informationData::before {
+        left: -3rem;
+        top: -4rem;
+        height: 10rem;
+        width: 12rem;
+    }
+}
+@media screen and (max-width:702px){
+    .card {
+        padding: 2rem 2.5rem;
+    }
+    .additional {
+        padding: 2rem 1.5rem 2rem 3.5rem;
+    }
+}
+@media screen and (max-width:669px){
+    .card {
+        padding: 2rem;
+    }
+    .date-point, .additional p {
+        font-size: .85rem;
+    }
+}
+@media screen and (max-width:611px){
+    .card{
+        flex: 100%;
+        max-width: 90%;
+        padding: 4rem 3.5rem;
+    }
+    .date-point, .additional p {
+        font-size: 1rem;
+    }
+    .additional {
+        padding: 2.5rem;
+        padding-top: 3.5rem;
+    }
+    .additional{
+        margin: 0;
+    }
+    .additional-content{
+        max-width: 75%;
+        margin-top: -1.5rem;
+    }
+    .about p.centred {
+        margin-bottom: 5rem;
+    }
+}
+@media screen and (max-width:441px){
+    .card{
+        padding: 2rem 3rem;
+        max-width: 100%;
+    }
+    .additional-content {
+        max-width: 85%;
+    }
+}
+@media screen and (max-width:368px){
+    .card {
+        padding: 1.5rem 2rem;
+    }
+    .additional {
+        padding: 2rem;
+        padding-top: 2.5rem;
+    }
+    .additional-content {
+        max-width: 90%;
+    }
+}

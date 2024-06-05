@@ -1,0 +1,68 @@
+.organiz .row {
+    display: flex;
+    margin: 0 auto;
+}
+
+.col {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.col p {
+    margin-bottom: 1rem;
+}
+
+.col img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.section.organiz {
+    position: relative;
+    padding-top: 20%;
+}
+
+.organiz .section__inner {
+    position: relative;
+}
+
+.organiz::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+    width: 100%;
+    display: block;
+    height: 0;
+    padding-bottom: 40%;
+    background: url(../../images/after-organiz.jpg) no-repeat top;
+    background-size: contain;
+}
+
+@media screen and (max-width: 992px) {
+    .organiz .row {
+        flex-wrap: wrap-reverse;
+    }
+    .organiz .row>div {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .col img{
+        max-width: 50%;
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width: 512px){
+    .col img {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 388px){
+    .col img {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}

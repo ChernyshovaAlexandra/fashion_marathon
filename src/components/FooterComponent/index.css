@@ -1,0 +1,115 @@
+.footer .welcomeTxt h1 {
+    margin: 0;
+}
+
+.footer .section__row:first-child {
+    flex: 35%;
+    margin-right: 10rem;
+}
+
+.footer .section__row:last-child {
+    flex: 65%
+}
+
+.coast {
+    font-size: 1.8rem;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+.footer.redbg{
+    background: #e20443;
+    padding-bottom: 0 !important;
+}
+.coast b {
+    font-size: 200%;
+}
+
+.footer .yellowBut {
+    margin: .5rem auto;
+    padding: 1rem 5.5rem;
+}
+
+.agit {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.agit::after {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    top: -3.5rem;
+    left: 7.5rem;
+    transform: rotate(-45deg);
+    border: solid 2px transparent;
+    border-left-color: #fff;
+}
+
+.agit p {
+    display: block;
+    max-width: 50%;
+    margin-left: 12rem;
+}
+
+.footer h1 {
+    position: relative;
+    display: inline;
+}
+
+.footer h1::after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 120%;
+    height: 120%;
+    margin: auto;
+    background: url(../../images/footer-clouds.png) no-repeat center;
+    background-size: contain;
+}
+.indent{
+    margin-top: 5rem;
+}
+.rekvisity{
+    background: #d0013c;
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+}
+.footer-rekv-div{
+    padding: 0 1rem;
+    padding-top: 1rem;
+    max-width: 30%;
+    flex: 30%;
+    margin-left: 1rem;
+}
+.footer-rekv-div a{
+    color: inherit;
+    margin-left: .5rem;
+}
+.footer .section__row.indent{
+    justify-content: center;
+}
+.footer p.coast{
+    text-align: left;
+}
+.footer .link-to{
+    text-align: center;
+    padding-right: 1rem;
+    color: #fff;
+}
+.footer .link-to a{
+    color: inherit;
+}
+.footer .link-to a:hover{
+    text-decoration: none;
+}
+.links-to-al{
+    justify-content: center
+}

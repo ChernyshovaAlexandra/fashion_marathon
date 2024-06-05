@@ -1,0 +1,80 @@
+@media screen and ( max-width: 1562px){
+    .profit-point{
+        max-width: 27%;
+    }
+}
+@media screen and ( max-width: 1462px){
+    .adding {
+        font-size: 1.2rem;
+    }
+    .profit-point{
+        max-width: 30%;
+    }
+}
+@media screen and ( max-width: 1352px){
+    .profit-points-content{
+        max-width: 100%;
+    }
+}
+@media screen and ( max-width: 1040px){
+    .profit-point{
+        flex-direction: column;
+        padding: 0 .5rem;
+        justify-content: flex-end;
+        max-width: 33%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:880px){
+    .profit-point{
+        font-size: .89rem;
+    }
+    .profit-point img{
+        max-height: 10rem;
+    }
+}
+@media screen and (max-width:786px){
+    .profit-points-content{
+        flex-wrap: wrap;
+    }
+    .profit-point{
+        flex: 50%;
+        max-width: 45%;
+        font-size: .95rem;
+    }
+}
+@media screen and (max-width:613px){
+    .profit-point.flexing{
+        flex: 100%;
+        max-width: 80%;
+        font-size: .95rem;
+        text-align: left;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .profit-point img{
+        margin-right: 1.5rem;
+    }
+    .profit-points-content{
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:523px){
+    .profit-point.flexing{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:413px){
+    .profit-point img{
+        max-width: 6.5rem;
+    }
+    .profit-point:not(:last-child){
+        margin-bottom: 1.5rem;
+    }
+}
+@media screen and (max-width:335px){
+    .profit-point img{
+        max-width: 5rem;
+    }
+}
